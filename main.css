@@ -1,0 +1,38 @@
+body {
+    background-image: url('imgs/1268195.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.header {
+    width: 100%;
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30vh;
+    padding: 10px;
+    backdrop-filter: blur(20px);
+}
+input {
+    width: 100%;
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+input:hover {
+    background-color: rgba(255, 255, 255, 0.377);
+}
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+.imgprofile {
+    border: 5px solid white;
+}
+p {
+    backdrop-filter: blur(20px);
+    color: white;
+    font-size: larger;
+}

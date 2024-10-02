@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="loginstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="mainlogin">
+            <h1>Login</h1>
+            <form action="receivelogin.php" method="post" target="_blank">
+                <input type="text" id="user" name="user" size="25" placeholder="Username" required class="input">
+                <br><br>
+                <input type="password" id="password" name="pass" size="25" placeholder="Password" required class="input">
+                <br><br>
+                <button type="submit" class="btnlogin"><b>เข้าสู่ระบบ</b></button>
+                <button type="reset" class="btn">ยกเลิก</button>
+            </form>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="mainregister">
+            <h1>Register</h1>
+            <p>ยังไม่ได้สมัครเป็นสมาชิก</p>
+            <a href="member.html"><button type="button" class="btnregister">สมัครสมาชิก</button></a>
+        </div>
+    </div>
+</body>
+</html>
+<!--
+<body>
+    <div class="login">
+        <h1>Login Website</h1>
+        <br>
+        <form action="receivelogin.php" method="post" target="_blank">
+            <div class="input-box">
+                <input type="text" id="user" name="user" size="25" placeholder="username" required>
+            </div>
+            <div class="input-box">
+                <input type="password" id="password" name="pass" size="25" placeholder="password" required>
+            </div>
+            <p>เมื่อกรอกข้อมูลครบแล้ว กรุณากดปุ่มเพื่อเข้าสู่ระบบ</p>
+            <br>
+            <button type="submit" class="btn-login">เข้าสู่ระบบ</button>
+            <button type="reset" class="btn">ยกเลิก</button>
+            
+        </form>
+        <div class="register">
+            <a href="member.html">
+            <button class="btn">สมัครสมาชิก</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+-->
