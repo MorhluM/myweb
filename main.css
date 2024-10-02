@@ -24,9 +24,13 @@ input {
 input:hover {
     background-color: rgba(255, 255, 255, 0.377);
 }
+h1,h3{
+    color: white;
+}
 .profile {
     text-align: center;
     margin-top: 20px;
+    color: white;
 }
 .imgprofile {
     border: 5px solid white;
@@ -35,4 +39,16 @@ p {
     backdrop-filter: blur(20px);
     color: white;
     font-size: larger;
+}
+button {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid black;
+    backdrop-filter: blur(20px);
+}
+button:hover {
+
+    border: 2px solid rgb(255, 255, 255);
+    background-color: antiquewhite;
+    backdrop-filter: blur(20px);
 }
